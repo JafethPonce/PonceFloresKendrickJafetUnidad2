@@ -75,7 +75,7 @@ include( '../../protectroute.php');
 
                         <div class="user-menu dropdown-menu">
                             <a class="nav-link" href="perfil.php"><i class="fa fa- user"></i>Mi Perfil</a>
-                            <a class="nav-link" href="#"><i class="fa fa-power -off"></i> <button id="cerrar" type="submit">Cerrar sesión</button> </a>
+                            <a class="nav-link" href="#"><i class="fa fa-power -off"></i> <button id="cerrar" type="submit" class="btn btn-danger">Cerrar sesión</button> </a>
                         </div>
                     </div>
 
@@ -84,12 +84,18 @@ include( '../../protectroute.php');
 
         </header>
 
+        <div id="clock-container">
+            <div id="time" class="animate"></div>
+            <div id="date" class="animate"></div>
+        </div>
+
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <?php include '../../breadcrumbs.php';
                 generate_breadcrumbs(); ?>
             </ol>
         </nav>
+        
         <!-- /#header -->
 
         <!-- Content -->
@@ -138,12 +144,7 @@ include( '../../protectroute.php');
             </div>
               <!-- Contenedor para cargar el modal -->
             <div id="modalContainer"></div>
-
         </div>
-
-
-
-
     </div>
     </div>
     </div>
@@ -206,8 +207,7 @@ include( '../../protectroute.php');
     <script src="assets/js/session.js"></script>
     <script src="assets/js/modal.js"></script>
     <script src="assets/js/procesonota.js"></script>
-
-
+    <script src="../../assets/js/inactivity.js"></script>
+    <script src="../../assets/js/Clock.js"></script>
 </body>
-
 </html>
