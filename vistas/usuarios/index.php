@@ -105,7 +105,7 @@ include( '../../protectroute.php');
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="card-body">
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addNoteModal">
+                        <button type="button" class="btn btn-primary btn-animated" data-toggle="modal" data-target="#addNoteModal">
                                 Agregar Nota
                             </button>
                         </div>
