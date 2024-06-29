@@ -3215,3 +3215,13 @@ footer.site-footer .footer-inner a {
 .whatsapp-button:hover {
   background-color: #128c7e;
 }
+
+#time,
+#date {
+  transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
+}
+
+#time.animate,
+#date.animate {
+  opacity: 1; /* Hacer visible cuando se añade la clase .animate */
+}
