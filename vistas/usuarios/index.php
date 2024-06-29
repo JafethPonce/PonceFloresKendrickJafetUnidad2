@@ -84,7 +84,7 @@ include( '../../protectroute.php');
 
         </header>
 
-        <div id="clock-container">
+        <div id="clock-container" class="fade-in">
             <div id="time" class="animate"></div>
             <div id="date" class="animate"></div>
         </div>
@@ -128,7 +128,8 @@ include( '../../protectroute.php');
                                                     Nombre: <?php echo $row[0]; ?> <br>
                                                     Nota:<?php echo $row[1]; ?> <br>
                                                     Fecha:<?php echo $row[2]; ?> <br>
-                                                    Id:<?php echo $row[3]; ?>
+                                                    Id:<?php echo $row[3]; ?> <br>
+                                                    <a href="">Agregar comentario</a>
                                                 </p>
                                             </div>
                                         </div>
