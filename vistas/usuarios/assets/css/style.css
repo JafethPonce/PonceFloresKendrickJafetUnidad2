@@ -3221,6 +3221,11 @@ footer.site-footer .footer-inner a {
   transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
 }
 
+#time,
+#date {
+  transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
+}
+
 #time.animate,
 #date.animate {
   opacity: 1; /* Hacer visible cuando se añade la clase .animate */
